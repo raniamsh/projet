@@ -1,0 +1,62 @@
+
+footer {
+    background-color: rgb(20, 19, 19);
+    color: white;
+    padding: 30px;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .footer-info, .footer-links, .footer-social {
+    flex: 1;
+  }
+  
+  h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  p, a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  ul li {
+    margin-bottom: 5px;
+  }
+  
+  ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .fa-facebook-f, .fa-twitter, .fa-instagram {
+    color: white;
+    margin-right: 10px;
+    font-size: 20px;
+  }
+
+
+
+  .container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 5%;
+  }
+  .card{
+    height: 70px;
+    margin-top: 4%;
+    margin-bottom: 4%;
+  }
+
+  
